@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background-color: #000;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  background: url("assets/bg.jpg");
+  background-size: cover;
+}
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  z-index: 10;
+}
